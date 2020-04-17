@@ -1,0 +1,143 @@
+*{
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 0;
+    margin: 0 ;
+    color: white;
+}
+header{
+    padding: 0.6% 2%;
+    background-color: #112264;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#contato{
+    border: #0500E1 2px solid;
+    border-radius: 5px;
+    background-color: #0500E1;
+
+}
+#contato:hover{
+    box-shadow: #0500E1 1px 1px 10px;
+}
+#banner{
+    background-image: url("./sources/bannerImg.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+#bannerText{
+    margin-right: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+#conteudo{
+    background-color: #6260C2;
+
+}
+#textNoticias{
+    text-align: center;
+    padding: 2% ;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+#noticia,
+#video{
+    border: black 2px solid;
+    box-shadow: black 2px 2px 5px;
+    border-radius: 5px;
+    margin: 1.5% 2%;
+}
+#noticia:hover,
+#video:hover{
+    box-shadow: none;
+    
+}
+#noticia a{
+    font-size: small;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+}
+#noticia a:hover{
+    color: white;
+}
+#textRecomendacoes{
+    text-align: center;
+    padding: 2%;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.5%;
+}
+#video{
+    height: 400px;
+    margin: 2.5% 15% ;
+}
+.podcast{
+    width: 20%;
+}
+@media (max-width:1024px){
+    .cards{
+        flex-direction: column;
+    }
+    #noticia img{
+        width: 100%;
+    }
+    .videos{
+        align-items: center;
+    }
+    #video{
+        width: 90%;
+        margin: 1%;
+    }
+    #pods{
+        flex-direction: column;
+        align-items: center;
+    }
+    .podcast{
+        width: max-content;
+        margin: 1% auto;
+    }
+}
+#podText{
+    margin: 2%;
+    text-align: center;
+}
+#pods{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+footer{
+    background-color: #112264;
+    font-size: 10px;
+    padding: 1%;
+    text-align: center;
+}
