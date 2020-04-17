@@ -1,0 +1,57 @@
+*{
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 0;
+    margin: 0 ;
+    color: white;
+}
+header{
+    padding: 0.6% 2%;
+    background-color: #112264;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#contato{
+    border: #0500E1 2px solid;
+    border-radius: 5px;
+    background-color: #0500E1;
+
+}
+#contato:hover{
+    box-shadow: #0500E1 1px 1px 10px;
+}
+main{
+   background-color: #6260C2;   
+}
+#cabecalho{
+    text-align: center;
+    font-size: 30px;
+    padding: 1%;
+}
+#form{
+    text-align: center;
+}
+
+footer{
+    background-color: #112264;
+    font-size: 10px;
+    padding: 1%;
+    text-align: center;
+}
