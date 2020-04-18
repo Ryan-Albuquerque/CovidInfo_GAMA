@@ -45,16 +45,20 @@ main{
 #perfil{
     display: flex;
     justify-content: center;
-    padding: 2% 0;
+    padding: 1% 0;
 }
 #foto{
     border-radius: 100%;
     
 }
+#name{
+    color: black;
+    font-weight: bold;
+}
 article{
     font-size: 15px;
     text-align: center;
-    padding: 2% 4%;
+    padding: 2% 15%;
 }
 #redes{
     display: flex;
@@ -72,6 +76,11 @@ article{
     }
 }
 @media (max-width:380px){
+    #text{
+        font-size: 8px;
+    }
+}
+@media(max-width: 425px){
     #text{
         font-size: 8px;
     }
