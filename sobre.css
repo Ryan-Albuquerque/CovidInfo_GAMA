@@ -75,6 +75,28 @@ article{
         font-size: 8px;
     }
 }
+@media(max-width:500px){
+   #github{
+       width: 100%;
+   }
+   #linkedin{
+       width: 14%;
+   }
+   #whatsapp{
+       width: 40%;
+   }
+}
+@media(max-width:415px){
+    #github{
+        width: 120%;
+    }
+    #linkedin{
+        width: 20%;
+    }
+    #whatsapp{
+        width: 60%;
+    }
+ }
 footer{
     background-color: #112264;
     font-size: 10px;
