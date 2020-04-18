@@ -34,6 +34,9 @@ header{
     background-color: #0500E1;
 
 }
+.nav a:hover{
+    border-bottom:white 2px solid;
+}
 #contato:hover{
     box-shadow: #0500E1 1px 1px 10px;
 }

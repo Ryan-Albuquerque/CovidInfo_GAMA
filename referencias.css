@@ -28,6 +28,9 @@ header{
     text-decoration: none;
     margin-left: 20px;
 }
+.nav a:hover{
+    border-bottom: 2px solid;
+}
 #contato{
     border: #0500E1 2px solid;
     border-radius: 5px;

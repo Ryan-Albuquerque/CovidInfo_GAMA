@@ -27,6 +27,10 @@ header{
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    
+}
+.nav a:hover{
+    border-bottom: 2px solid;
 }
 #contato{
     border: #0500E1 2px solid;
@@ -54,6 +58,7 @@ main{
 #name{
     color: black;
     font-weight: bold;
+    font-size: 18px;
 }
 article{
     font-size: 15px;

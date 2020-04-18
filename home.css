@@ -52,7 +52,9 @@ header{
     color: white;
     font-size: 20px;
 }
-
+.nav a:hover{
+    border-bottom: 2px solid;
+}
 #conteudo{
     background-color: #6260C2;
 
